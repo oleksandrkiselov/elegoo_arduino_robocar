@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(chcp:*)",
+      "Bash(arduino-cli lib search:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(cmd /c \"where arduino-cli 2>nul || echo not found\")"
+    ]
+  }
+}
